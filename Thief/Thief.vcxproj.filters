@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Poly2Tri">
+      <UniqueIdentifier>{7e04f3ec-4c15-4a85-bacc-77f9a913eda8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Forces">
+      <UniqueIdentifier>{d6d8cca6-03ee-4064-8922-9f68c05b4b65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Behaviour_Trees">
+      <UniqueIdentifier>{e99b940a-9fda-4acc-a61f-c2307ba6b67a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Forces">
+      <UniqueIdentifier>{7713d2ab-c825-46e3-bb82-f90a58aaac4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Behaviour_Trees">
+      <UniqueIdentifier>{9edf708a-76a0-4058-8835-dabb1ea8131f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Behaviour_Trees\Actions">
+      <UniqueIdentifier>{3b9da32a-cbe2-4317-8d52-d9195c7263bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Behaviour_Trees\Conditions">
+      <UniqueIdentifier>{a9ae5559-3bfb-44fe-98b2-73e9a0671467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Behaviour_Trees\Decorations">
+      <UniqueIdentifier>{8afe5c2d-5b47-4424-8891-fbe3fbc48fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Behaviour_Trees\Actions">
+      <UniqueIdentifier>{48c4d379-457f-4765-bf32-8afd1bf4694d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Behaviour_Trees\Decorations">
+      <UniqueIdentifier>{5f07d8aa-8b3f-4605-b0d7-f3608af9827d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Behaviour_Trees\Conditions">
+      <UniqueIdentifier>{a6a4a122-6671-4a40-b778-e84f06eb57fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{c69c74ff-ae5a-464e-93b5-a738de49c3bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{b2f2f003-032b-4606-9949-dd88eb064389}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ThiefApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="poly2tri\common\shapes.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="poly2tri\sweep\advancing_front.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="poly2tri\sweep\cdt.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="poly2tri\sweep\sweep.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="poly2tri\sweep\sweep_context.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="NavMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyboardBehaviour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AvoidForce.cpp">
+      <Filter>Source Files\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="EvadeForce.cpp">
+      <Filter>Source Files\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="FleeForce.cpp">
+      <Filter>Source Files\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="PursueForce.cpp">
+      <Filter>Source Files\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="SeekForce.cpp">
+      <Filter>Source Files\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="WanderForce.cpp">
+      <Filter>Source Files\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackAction.cpp">
+      <Filter>Source Files\Behaviour_Trees\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="PathAction.cpp">
+      <Filter>Source Files\Behaviour_Trees\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="SeekAction.cpp">
+      <Filter>Source Files\Behaviour_Trees\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="WanderAction.cpp">
+      <Filter>Source Files\Behaviour_Trees\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="CanSeeTargetCondition.cpp">
+      <Filter>Source Files\Behaviour_Trees\Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="CloseToTargetCondition.cpp">
+      <Filter>Source Files\Behaviour_Trees\Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="RecentlyChasedCondition.cpp">
+      <Filter>Source Files\Behaviour_Trees\Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="VeryCloseToTargetCondition.cpp">
+      <Filter>Source Files\Behaviour_Trees\Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeoutDecorator.cpp">
+      <Filter>Source Files\Behaviour_Trees\Decorations</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerDecorator.cpp">
+      <Filter>Source Files\Behaviour_Trees\Decorations</Filter>
+    </ClCompile>
+    <ClCompile Include="RemainingPathCondition.cpp">
+      <Filter>Source Files\Behaviour_Trees\Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Thief.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="PatrolAction.cpp">
+      <Filter>Source Files\Behaviour_Trees\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearPathAction.cpp">
+      <Filter>Source Files\Behaviour_Trees\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="ReturnAction.cpp">
+      <Filter>Source Files\Behaviour_Trees\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="StillCondition.cpp">
+      <Filter>Source Files\Behaviour_Trees\Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="SwapVelocityAction.cpp">
+      <Filter>Source Files\Behaviour_Trees\Actions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ThiefApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="poly2tri\common\shapes.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="poly2tri\common\utils.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="poly2tri\sweep\advancing_front.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="poly2tri\sweep\cdt.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="poly2tri\sweep\sweep.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="poly2tri\sweep\sweep_context.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="poly2tri\poly2tri.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="NavMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyboardBehaviour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AvoidForce.h">
+      <Filter>Header Files\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="EvadeForce.h">
+      <Filter>Header Files\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="FleeForce.h">
+      <Filter>Header Files\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="PursueForce.h">
+      <Filter>Header Files\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="SeekForce.h">
+      <Filter>Header Files\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringForce.h">
+      <Filter>Header Files\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="WanderForce.h">
+      <Filter>Header Files\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviour.h">
+      <Filter>Header Files\Behaviour_Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Composite.h">
+      <Filter>Header Files\Behaviour_Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Selector.h">
+      <Filter>Header Files\Behaviour_Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence.h">
+      <Filter>Header Files\Behaviour_Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackAction.h">
+      <Filter>Header Files\Behaviour_Trees\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="PathAction.h">
+      <Filter>Header Files\Behaviour_Trees\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="SeekAction.h">
+      <Filter>Header Files\Behaviour_Trees\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="WanderAction.h">
+      <Filter>Header Files\Behaviour_Trees\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="CanSeeTargetCondition.h">
+      <Filter>Header Files\Behaviour_Trees\Conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="CloseToTargetCondition.h">
+      <Filter>Header Files\Behaviour_Trees\Conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="RecentlyChasedCondition.h">
+      <Filter>Header Files\Behaviour_Trees\Conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="VeryCloseToTargetCondition.h">
+      <Filter>Header Files\Behaviour_Trees\Conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeoutDecorator.h">
+      <Filter>Header Files\Behaviour_Trees\Decorations</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerDecorator.h">
+      <Filter>Header Files\Behaviour_Trees\Decorations</Filter>
+    </ClInclude>
+    <ClInclude Include="RemainingPathCondition.h">
+      <Filter>Header Files\Behaviour_Trees\Conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Thief.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PatrolAction.h">
+      <Filter>Header Files\Behaviour_Trees\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearPathAction.h">
+      <Filter>Header Files\Behaviour_Trees\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="ReturnAction.h">
+      <Filter>Header Files\Behaviour_Trees\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="SwapVelocityAction.h">
+      <Filter>Header Files\Behaviour_Trees\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="StillCondition.h">
+      <Filter>Header Files\Behaviour_Trees\Conditions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

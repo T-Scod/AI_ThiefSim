@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Geometry">
+      <UniqueIdentifier>{c2c02295-162e-40d3-b4e0-1d89519ab409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vectors">
+      <UniqueIdentifier>{1f9b9725-02e8-4cb6-9e4c-be86d22269b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Matrices">
+      <UniqueIdentifier>{fe488b7d-ebaf-4989-8b2f-4a3acdb6e8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Geometry">
+      <UniqueIdentifier>{fd11237f-9819-4225-9f3c-5bfc0313be12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Matrices">
+      <UniqueIdentifier>{600e7122-446f-4fee-81bd-09eab7ddcc3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vectors">
+      <UniqueIdentifier>{b13efdde-37fc-4520-9c2c-eec65053f3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphs">
+      <UniqueIdentifier>{cf01e4da-73c9-4794-82a0-04b54b2af199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphs">
+      <UniqueIdentifier>{cb641e54-ab98-489f-916b-426e74419709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers">
+      <UniqueIdentifier>{6863fc72-7e26-4676-bd93-6bbfd7a6ed84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AABB2.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB3.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2.cpp">
+      <Filter>Source Files\Matrices</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3.cpp">
+      <Filter>Source Files\Matrices</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4.cpp">
+      <Filter>Source Files\Matrices</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane2.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Plane3.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray2.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray3.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Source Files\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Source Files\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Source Files\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Source Files\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph2.cpp">
+      <Filter>Source Files\Graphs</Filter>
+    </ClCompile>
+    <ClCompile Include="Graph3.cpp">
+      <Filter>Source Files\Graphs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABB2.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB3.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane2.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Plane3.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray2.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray3.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Header Files\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Header Files\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Header Files\Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2.h">
+      <Filter>Header Files\Matrices</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3.h">
+      <Filter>Header Files\Matrices</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4.h">
+      <Filter>Header Files\Matrices</Filter>
+    </ClInclude>
+    <ClInclude Include="Node2.h">
+      <Filter>Header Files\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph3.h">
+      <Filter>Header Files\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Node3.h">
+      <Filter>Header Files\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Graph2.h">
+      <Filter>Header Files\Graphs</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Header Files\Containers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
